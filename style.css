@@ -6,6 +6,8 @@ body {
   /* padding-top: 400px; */
   text-align: center;
   color: #7b542f;
+  margin: 0px;
+  padding: 0px;
 }
 
 html {
@@ -143,6 +145,14 @@ h2 {
   margin-right: 100px;
   margin-left: 50px;
   margin-bottom: 70px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.empon-teks h2{
+  font-size: 19.5px;
+  font-weight: lighter;
 }
 
 .macam-section {
@@ -202,4 +212,95 @@ h2 {
   /* padding-top: 400px; */
   text-align: center;
   color: #7b542f;
+}
+
+/* !!! HTML JAHE !!! */
+
+.jahe-body {
+  font-family: "Noto Sans Javanese", sans-serif;
+  background-color: #f9f9f9;
+  /* padding-top: 400px; */
+  text-align: center;
+  color: #7b542f;
+}
+
+.jahe-body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.jahe-contents{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.jahe-left{
+  display: flex;
+  width: 50%;
+}
+
+.jahe-left .c-jahe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d0b466;
+  border-radius: 0 600px 600px 0;
+  width: 620px;
+  height: 620px;
+  z-index: -1;
+  position: absolute;
+}
+
+.jahe-left .jahe-img{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  z-index: 2;
+}
+
+.jahe-right{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 20rem 50rem; */
+  align-items: center;
+}
+
+.jahe-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jahe-right h1{
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.jahe-right p{
+  font-size: 16.5px;
+  line-height: 1.5; 
+}
+
+.back-button{
+  background: linear-gradient(180deg, #7b542f, #b6771d);
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  width: 100px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+.back-button p{
+  font-family: "League Spartan", sans-serif;
+  margin: 10px;
+  font-size: 13px;
+  font-weight: bold;
 }
