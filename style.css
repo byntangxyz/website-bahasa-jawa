@@ -366,6 +366,21 @@ h2 {
   transform: translateX(-50%);
 }
 
+/*-----curve text------*/
+.curve {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.curve text {
+  font-family: inherit;
+  fill: #be5f00;
+}
+
 .footer {
   background-color: #7b542f;
   text-align: center;
