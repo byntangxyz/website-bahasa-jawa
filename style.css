@@ -2,7 +2,7 @@
 
 body {
   font-family: "Noto Sans Javanese", sans-serif;
-  background-color: #f9f9f9;
+  background: #fff9e6;
   /* padding-top: 400px; */
   text-align: center;
   color: #7b542f;
@@ -218,7 +218,7 @@ h2 {
   padding: 10px 20px;
   border-radius: 20px;
   background: #d0a85a;
-  color: white;
+  color: #fff9e6;
   border: none;
   cursor: pointer;
 }
@@ -230,8 +230,8 @@ h2 {
   justify-content: center;
   gap: 50px;
   padding: 40px;
-  margin-bottom: 5rem;
-  margin-top: 8rem;
+  background: #fff9e6;
+  margin-top: 3rem;
 }
 
 /* --- lingkaran luar --- */
@@ -351,8 +351,8 @@ h2 {
 
 /* --- foto/elemen --- */
 .drink-img {
-  width: 110px;
-  height: 110px;
+  width: 50%;
+  height: 50%;
   border-radius: 8px;
   object-fit: cover;
 }
