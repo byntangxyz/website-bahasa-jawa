@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@400..700&display=swap");
+
+body {
+  font-family: "Noto Sans Javanese", sans-serif;
+  background-color: #f9f9f9;
+  /* padding-top: 400px; */
+  text-align: center;
+  color: #7b542f;
+}
+
+html {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox, Safari 18.2+, Chromium 121+ */
+}
+html::-webkit-scrollbar {
+  display: none; /* Older Safari and Chromium */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff7ef;
+  position: relative;
+}
+
+.hero-content {
+  text-align: center;
+  position: relative;
+}
+
+.teks-kanan,
+.teks-kiri {
+  font-size: 70px;
+  font-weight: lighter;
+  opacity: 0;
+  position: relative;
+  line-height: 1.1;
+  z-index: 0;
+}
+
+.teks-kanan {
+  transform: translateX(80px);
+}
+
+.teks-kiri {
+  transform: translateX(-80px);
+}
+
+.hero-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: 5;
+}
+
+.hero-image img {
+  width: 500px;
+}
+
+.hero-btn {
+  position: absolute;
+  top: calc(50% + 200px);
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 12px 30px;
+  font-size: 24px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #986231, #d0b466);
+  background-size: 200% 100%;
+  cursor: pointer;
+  transition: background-position 0.3s ease, transform 0.2s ease;
+
+  z-index: 10;
+}
+
+/* Hover effect */
+.hero-btn:hover {
+  background-position: right;
+  transform: translateX(-50%) scale(1.05);
+}
+
+.jawa span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  margin-right: 2px;
+  font-size: 2.2rem;
+}
+
+.spacer {
+  height: 300px;
+}
+
+.macam-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.mySwiper {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 280px;
+  padding: 25px;
+  border-radius: 18px;
+  background: #fff9e6;
+  border: 2px solid #d5b884;
+  transition: 0.4s ease;
+}
+
+
+.swiper-slide:not(.swiper-slide-active) .card {
+  transform: scale(0.8);
+  opacity: 0.5;
+  filter: blur(1px);
+  pointer-events: none; 
+}
+
+.swiper-slide-active .card {
+  transform: scale(1);
+  opacity: 1;
+  filter: none;
+  pointer-events: auto; 
+}
+
+.waos-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #d0a85a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.jahe-body {
+  font-family: "Noto Sans Javanese", sans-serif;
+  background-color: #f9f9f9;
+  /* padding-top: 400px; */
+  text-align: center;
+  color: #7b542f;
+}
