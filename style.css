@@ -170,7 +170,7 @@ h2 {
   text-align: center;
   padding: 60px 40px;
   background-image: linear-gradient(to bottom, #7b542f, #8a5c2c, #996529, #a86e24, #b6771d);
-  height: 26rem;
+  height: 30rem;
 }
 
 .judul-macam {
@@ -198,6 +198,11 @@ h2 {
   transition: 0.4s ease;
 }
 
+.card img {
+  width: 50%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
 
 .swiper-slide:not(.swiper-slide-active) .card {
   transform: scale(0.8);
@@ -221,6 +226,12 @@ h2 {
   color: #fff9e6;
   border: none;
   cursor: pointer;
+}
+
+.waos-btn a{
+  text-decoration: none;
+  color: #fff7ef;
+  font-weight: bold;
 }
 
 
